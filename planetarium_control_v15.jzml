@@ -1,6 +1,6 @@
 <JZML>
 <PROJECT version="5220" width="1024" height="724" osc_target="-1" midi_target="-1" kbmouse_target="-1" skin="Pixel"/>
-<WINDOW class="JAZZINTERFACE" text="CoordinateConverter" x="0" y="0" width="1024" height="724" id="2" state="1" group="0" font="tahoma,11,0" >
+<WINDOW class="JAZZINTERFACE" text="CoordinateConverter" x="0" y="0" width="1024" height="724" id="2" state="0" group="0" font="tahoma,11,0" >
 <WINDOW class="Knob" text="KnobConverterAzimuth" x="0" y="90" width="205" height="205" id="1" state="5" group="0" font="tahoma,10,0" send="1" osc_target="-1" midi_target="-2" kbmouse_target="-2" color="8355711,1603199" cursor="0" grid="0" grid_steps="1" label="0" mode="1" physic="1" precision="3" type="2" unit="" value="0">
 <PARAM name="x=" value="0.500000" send="16" osc_target="-1" osc_trigger="1" osc_message="/KnobConverterAzimuth/x" midi_target="-1" midi_trigger="1" midi_message="0x90,0x90,0,0" midi_scale="0,16383" osc_scale="0.000000,1.000000" kbmouse_target="-1" kbmouse_trigger="1" kbmouse_message="0,0,0" kbmouse_scale="0,1,0,1"/>
 <PARAM name="z=" value="0.000000" send="16" osc_target="-1" osc_trigger="1" osc_message="/KnobConverterAzimuth/z" midi_target="-1" midi_trigger="1" midi_message="0x90,0x90,0,0" midi_scale="0,16383" osc_scale="0.000000,1.000000" kbmouse_target="-1" kbmouse_trigger="1" kbmouse_message="0,0,0" kbmouse_scale="0,1,0,1"/>
@@ -109,7 +109,7 @@
 <VARIABLE name="light=0" send="0" osc_target="0" osc_trigger="1" osc_message="/Text20/light" midi_target="-1" midi_trigger="1" midi_message="0x90,0x90,0,0" midi_scale="0,16383" kbmouse_target="-1" kbmouse_trigger="1" kbmouse_message="0,0,0" kbmouse_scale="0,1,0,1"/>
 </WINDOW>
 </WINDOW>
-<WINDOW class="JAZZINTERFACE" text="MultiEncoder Master" x="0" y="0" width="1024" height="724" id="4" state="0" group="0" font="tahoma,11,0" >
+<WINDOW class="JAZZINTERFACE" text="MultiEncoder Master" x="0" y="0" width="1024" height="724" id="4" state="1" group="0" font="tahoma,11,0" >
 <WINDOW class="Text" text="Text36" x="0" y="8" width="635" height="32" id="41" state="241" group="0" font="tahoma,20,0" send="1" osc_target="-2" midi_target="-2" kbmouse_target="-2" color="8355711" content="Master">
 <VARIABLE name="light=0" send="0" osc_target="0" osc_trigger="1" osc_message="/Text36/light" midi_target="-1" midi_trigger="1" midi_message="0x90,0x90,0,0" midi_scale="0,16383" kbmouse_target="-1" kbmouse_trigger="1" kbmouse_message="0,0,0" kbmouse_scale="0,1,0,1"/>
 </WINDOW>
@@ -191,7 +191,7 @@
 <WINDOW class="Monitor" text="Angle10" x="430" y="379" width="205" height="22" id="59" state="241" group="0" font="tahoma,16,0" send="1" osc_target="-2" midi_target="-2" kbmouse_target="-2" color="8355711" label="0" precision="3" unit="" value="1">
 <VARIABLE name="value=KnobMultiEncRollMaster.angle" send="0" osc_target="0" osc_trigger="1" osc_message="/Angle10/value" midi_target="-1" midi_trigger="1" midi_message="0x90,0x90,0,0" midi_scale="0,16383" kbmouse_target="-1" kbmouse_trigger="1" kbmouse_message="0,0,0" kbmouse_scale="0,1,0,1"/>
 </WINDOW>
-<WINDOW class="CustomButton" text="CustomButton" x="758" y="59" width="138" height="48" id="60" state="241" group="0" font="tahoma,14,0" send="1" osc_target="-2" midi_target="-2" kbmouse_target="-2" behavior="0" bitmap="0,0" capture="1" color="4587520,8355711" label_off="Lock Directions" label_on="Lock Directions" outline="1">
+<WINDOW class="CustomButton" text="CustomButton" x="497" y="426" width="138" height="48" id="60" state="241" group="0" font="tahoma,14,0" send="1" osc_target="-2" midi_target="-2" kbmouse_target="-2" behavior="0" bitmap="0,0" capture="1" color="4587520,8355711" label_off="Lock Directions" label_on="Lock Directions" outline="1">
 <PARAM name="x=" value="0.000000" send="25" osc_target="0" osc_trigger="1" osc_message="/MultiEncoder/lockedToMaster" midi_target="-1" midi_trigger="1" midi_message="0x90,0x90,0,0" midi_scale="0,16383" osc_scale="0.000000,1.000000" kbmouse_target="-1" kbmouse_trigger="1" kbmouse_message="0,0,0" kbmouse_scale="0,1,0,1"/>
 <VARIABLE name="light=0" send="0" osc_target="0" osc_trigger="1" osc_message="/CustomButton/light" midi_target="-1" midi_trigger="1" midi_message="0x90,0x90,0,0" midi_scale="0,16383" kbmouse_target="-1" kbmouse_trigger="1" kbmouse_message="0,0,0" kbmouse_scale="0,1,0,1"/>
 </WINDOW>
